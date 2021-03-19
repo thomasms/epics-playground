@@ -3,12 +3,11 @@
 # Change the first line and also EPICS_BASE if using different version of base.
 # type make at top level
 
-# must be adjacently set (for some odd reason?)
+# Note - order matters here
+PVXS=/home/dev/epics/pvxs
 EPICS7_DIR=/home/dev/epics/epics-base
+
 EPICS_BASE=$(EPICS7_DIR)
-
-PVXS=/home/dev/epics/
-
 PVDATABASE=$(EPICS7_DIR)/modules/database
 PVACLIENT=$(EPICS7_DIR)/modules/pvaClient
 PVA2PVA=$(EPICS7_DIR)/modules/pva2pva
@@ -16,4 +15,3 @@ PVACCESS=$(EPICS7_DIR)/modules/pvAccess
 NORMATIVETYPES=$(EPICS7_DIR)/modules/normativeTypes
 PVDATA=$(EPICS7_DIR)/modules/pvData
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
-
