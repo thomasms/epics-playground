@@ -1,0 +1,17 @@
+/cfg/
+/bin/
+/lib/
+/db/
+/dbd/
+/include/
+/templates/
+/configure/*.local
+/configure/CONFIG_SITE.Common.*
+O.*/
+*.orig
+*.log
+.*.swp
+
+.vscode
+
+.DS_Store
