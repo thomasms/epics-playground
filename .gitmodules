@@ -1,0 +1,6 @@
+[submodule "third_party/epics-base"]
+	path = third_party/epics-base
+	url = https://github.com/thomasms/epics-base
+[submodule "third_party/pvxs"]
+	path = third_party/pvxs
+	url = https://github.com/thomasms/pvxs
