@@ -71,7 +71,6 @@ EOF
     checkresult
 }
 
-clean
 build_base
 build_pvxs
 build_this
