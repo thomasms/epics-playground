@@ -16,6 +16,6 @@ jobs:
       with:
         submodules: recursive
     - name: dependencies
-      run: sudo apt-get install libevent-devel
+      run: sudo apt-get install libevent-dev
     - name: build
       run: bash scripts/build_all.sh

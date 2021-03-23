@@ -1,4 +1,5 @@
 # A Playground for EPICS
+![build](https://github.com/thomasms/epics-playground/actions/workflows/build.yml/badge.svg)
 
 ```bash
 git clone https://github.com/thomasms/epics-playground
