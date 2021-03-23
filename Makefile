@@ -1,7 +1,7 @@
 TOP = .
 include $(TOP)/configure/CONFIG
 
-EMBEDDED_TOPS += $(TOP)/exampleone
+EMBEDDED_TOPS += $(TOP)/servers/simple
 # more here....
 
 

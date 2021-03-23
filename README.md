@@ -18,8 +18,16 @@ Other
 - make
 - C & C++ compilers (gcc)
 
-## Example One
-Testing out pvDatabase
+## Examples
+### Servers
+A variety of server examples are provided in the server subdir.
+
+#### **Simple**
+The most basic example using pvAccess + pvDatabase.
+
+### Clients
+
+todo...
 
 ## Notes
 The skeleton and infrastructure of the project (Makefiles + config) are based on [epics-base/exampleCPP](https://github.com/epics-base/exampleCPP) with the license @ [LICENSE.base](./LICENSE.base).
