@@ -3,6 +3,11 @@
 
 ```bash
 git clone https://github.com/thomasms/epics-playground
+source scripts/build_all.sh
+```
+or more if you already have epics-base and PVXS elsewhere then do
+```bash
+git clone https://github.com/thomasms/epics-playground
 cd epics-playground
 cp ExampleRELEASE.local configure/RELEASE.local
 pico configure/RELEASE.local  // change EPICS7_DIR and PVXS to match your env
