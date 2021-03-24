@@ -19,6 +19,8 @@ Other
 - make
 - C & C++ compilers (gcc)
 
+Optionally, there are python examples given in the `py` directory, and of course will require Python 3. In addition to this please see the requirements.txt file in the directory to see all required packages.
+
 ## Examples
 ### Servers
 A variety of server examples are provided in the server subdir.

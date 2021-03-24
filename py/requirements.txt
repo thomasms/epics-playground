@@ -1,0 +1,3 @@
+epicscorelibs
+pvapy
+p4p
