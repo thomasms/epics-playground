@@ -1,12 +1,3 @@
-k#ifdef _COMMENT_
-/* Compiler inspection
- *
- * expanded as configure/CONFIG_SITE.Common.*
- */
-/* GCC preprocessor drops C comments from output.
- * MSVC preprocessor emits C comments in output
- */
-#endif
 #define VERSION_INT(V,R,M,P) ( ((V)<<24) | ((R)<<16) | ((M)<<8) | (P))
 
 CONFIG_LOADED=YES
