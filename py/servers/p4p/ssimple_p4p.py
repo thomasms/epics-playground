@@ -10,13 +10,14 @@ pv3 = SharedPV(nt=NTScalar('d'),
               initial=24.2346692)
 
 @pv1.put
-@pv2.put
-@pv3.put
+#@pv2.put
+#@pv3.put
 def handleput(pv, op):
     print(f"You changed my value to: {op.value().raw['value']}, I used to be: {pv.current().raw['value']}")
     pv.post(op.value())
     op.done()
 
+print("Server running....")
 Server.forever(providers=[
     {
         'p4p:pv1':pv1,
@@ -24,4 +25,3 @@ Server.forever(providers=[
         'p4p:pv3':pv3,
     }
 ])
-

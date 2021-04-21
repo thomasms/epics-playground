@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>LED</name>
+  <width>650</width>
+  <height>650</height>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>Structured Data</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>181</width>
+    <height>31</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>pva://mypv</pv_name>
+    <x>50</x>
+    <y>48</y>
+    <width>80</width>
+    <height>26</height>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>x</text>
+    <x>32</x>
+    <y>48</y>
+    <width>18</width>
+    <height>26</height>
+  </widget>
+  <widget type="stripchart" version="2.0.0">
+    <name>Strip Chart</name>
+    <x>20</x>
+    <y>74</y>
+    <width>578</width>
+    <height>280</height>
+    <traces>
+      <trace>
+        <name>Value</name>
+        <y_pv>pva://mypv/value</y_pv>
+        <axis>1</axis>
+        <trace_type>1</trace_type>
+        <color>
+          <color red="0" green="0" blue="255">
+          </color>
+        </color>
+        <line_width>2</line_width>
+        <point_type>2</point_type>
+        <point_size>3</point_size>
+        <visible>true</visible>
+      </trace>
+    </traces>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>Scaled Slider</name>
+    <pv_name>pva://mypv/mean</pv_name>
+    <x>50</x>
+    <y>380</y>
+    <width>210</width>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>Scaled Slider_1</name>
+    <pv_name>pva://mypv/sigma</pv_name>
+    <x>359</x>
+    <y>382</y>
+    <width>210</width>
+    <level_hihi>15.0</level_hihi>
+    <level_high>10.0</level_high>
+    <level_low>8.0</level_low>
+    <level_lolo>5.0</level_lolo>
+    <show_hihi>false</show_hihi>
+    <show_high>false</show_high>
+    <show_low>false</show_low>
+    <show_lolo>false</show_lolo>
+    <maximum>20.0</maximum>
+    <limits_from_pv>false</limits_from_pv>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>mean</text>
+    <x>61</x>
+    <y>362</y>
+    <width>60</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>sigma</text>
+    <x>364</x>
+    <y>362</y>
+    <width>60</width>
+  </widget>
+</display>
